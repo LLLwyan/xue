@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>老薛</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/jq22-demo.css">
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<link rel="stylesheet" href="dist/APlayer.min.css">
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<style type="text/css">
+	.h1{
+		font-size: 20px;
+		color: white;
+	}
+</style>
+<body>
+	<!--导航栏开始-->
+<div class="row">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color: white;" href="#">&nbsp;&nbsp;&nbsp;&nbsp;全世界最好的薛之谦</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#zuopin">作品展 </a></li>
+                    <li><a href="#story">故事集</a></li>
+                    <li><a href="#zongyi">综艺咖</a></li>
+                    <li><a href="#song">情歌王</a></li>
+                    <li><a href="#photo">照片墙</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+   <!--导航栏结束-->
+   	
+   <!--轮播图开始-->
+<div class="row">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     <!-- 下标小圆点 -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+     <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="images/banner1.jpg" alt="xuezhiqian1">
+	      <div class="carousel-caption">
+	      	<h1 style="font-size: 30px;color: white;margin-bottom: 50px;">故事已经说完 ,懒得圆满</h1>
+	        <button class="btn btn-danger">了解详情</button>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/banner2.jpg" alt="xuezhiqian2">
+	      <div class="carousel-caption"  style="margin-bottom: -20px;">
+	        <h1 style="font-size: 30px;color: white;margin-bottom: 20px;">镜子里的人说假话</h1>
+	        <button class="btn btn-danger">了解详情</button>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/banner4.jpg" alt="xuezhiqian3">
+	      <div class="carousel-caption">
+	        <h1 style="font-size: 30px;color: white;margin-bottom: 50px;">怪我没能力跟随，你去的方向</h1>
+	        <button class="btn btn-danger">了解详情</button>
+	      </div>
+	    </div>
+	  </div>
+
+     <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+    </div>
+</div>
+   <!--轮播图结束-->
+ <div data-spy="scroll" data-target="#navbarExample" data-offset="50" class="scrollspy-example">    
+   <!--作品展开始-->
+<div class="container" style="width: 970px;">
+	<h2 class="text-center" id="zuopin" style="font-size: 25px;margin: 40px;">作品集</h2>
+	<div class="row">
+		<div class="col-lg-4 col-xs-12 works">
+			<img src="images/works1.jpg" alt="yiwai" />
+			<div class="box"></div>
+			<h2 style="font-size: 35px;color: white">2013</h2>
+			<p style="color: #999999;">薛之谦 《意外》</p>
+		</div>
+		<div class="col-lg-4 col-xs-12 works">
+			<img src="images/works2.jpg" alt="yiwai" />
+			<div class="box"></div>
+			<h2 style="font-size: 35px;color: white;">2015</h2>
+			<p style="color: #999999;">薛之谦 《绅士》</p>
+		</div>
+		<div class="col-lg-4 col-xs-12 works">
+			<img src="images/works3.jpg" alt="yiwai" />
+			<div class="box"></div>
+			<h2 style="font-size: 35px;color: white;">2016</h2>
+			<p style="color: #999999;">薛之谦 《初学者》</p>
+		</div>
+	</div>
+</div>
+   <!--作品展结束-->
+   
+   <!--故事集开始-->
+<div class="container" style="width: 970px;">
+	<h2 class="text-center" id="story" style="font-size: 25px;margin: 40px;">故事集</h2>
+	<div class="row">
+		<section class="jq22-container">
+			<div id="timeline" style="margin: 10px auto;">
+				<ul id="dates">
+					<li><a href="#2005">2005</a></li>
+					<li><a href="#2007">2007</a></li>
+					<li><a href="#2008">2008</a></li>
+					<li><a href="#2012">2012</a></li>
+					<li><a href="#2013">2013</a></li>
+					<li><a href="#2015">2015</a></li>
+					<li><a href="#2016">2016</a></li>
+					<li><a href="#2017">2017</a></li>
+				</ul>
+				<ul id="issues">
+					<li id="2005">
+						<img src="images/1.jpg" width="256" height="256" />
+						<h1>2005</h1>
+						<p>2005年，薛之谦因参加选秀节目《我型我秀》获得四强而正式出道；同年9月，签约上腾娱乐。随后发行首张个人原创同名专辑《薛之谦》，他包揽专辑六首曲和五首词的创作，专辑发行1个月销量突破20万张，而他则成为年度销量最高内地男歌手，随后，主打歌《认真的雪》获得第十四届东方风云榜十大金曲奖</p>
+					</li>
+					<li id="2007">
+						<img src="images/2.jpg" width="256" height="256" />
+						<h1>2007</h1>
+						
+						<p>2007年7月31日，发行第二张个人原创专辑《你过得好吗》，该专辑销量在一个月内破15万，而薛之谦凭此专辑荣获MusicRadio中国TOP排行榜内地年度最受欢迎男歌手奖，同名主打歌《你过得好吗》则获得北京流行音乐典礼内地年度金曲奖</p>
+					</li>
+					<li id="2008">
+						<img src="images/3.jpg" width="256" height="256" />
+						<h1>2008</h1>
+						<p>2008年11月26日，发行第三张个人原创专辑《深深爱过你》，专辑收录9首歌曲，同名主打歌《深深爱过你》更是由他作词作曲并演唱，分为前世、今生两个版本，随后，该曲获得北京流行音乐典礼年度金曲奖及第9届全球华语歌曲排行榜最受欢迎二十大金曲奖  ；12月20日，薛之谦在上海举行个人首场演唱会“谦年传说”</p>
+					</li>
+					<li id="2012">
+						<img src="images/4.jpg" width="256" height="256" />
+						<h1>2012</h1>
+						<p>2012年7月17日，发行的第四张个人专辑《几个薛之谦》共收录9首歌曲，专辑于次年4月获得MusicRadio中国TOP排行榜内地推荐唱片  ；9月，他与上腾娱乐约满不续 ；12月27日，推出单曲《方圆几里》</p>
+					</li>
+					<li id="2013">
+						<img src="images/5.jpg" width="256" height="256" />
+						<h1>2013</h1>
+						<p>2013年1月6日，正式签约坤宏传媒 ；10月5日，薛之谦获得全球华语歌曲排行榜上海地区杰出歌手 ；11月11日，发行第五张个人专辑《意外》，专辑收录10首歌曲，并凭借专辑《意外》获得第21届东方风云榜颁奖最佳唱作人，而专辑同名歌曲亦获得十大金曲 ；4月15日，他还获得音悦V榜年度盛典年度创作歌手奖</p>
+					</li>
+					<li id="2015">
+						<img src="images/6.jpg" width="256" height="256" />
+						<h1>2015</h1>
+						<p>2015年6月8日，发行的原创EP《绅士》共收录3首歌曲，这是他出道十年首次担当制作人，包揽了该EP的所有词曲 ；6月11日，正式签约海蝶音乐 ；10月26日，担任制作人推出第二张个人原创EP《一半》  ；随后，搭档朴海镇、张亮主演都市爱情剧《男人帮·朋友》，他在剧中饰演贸易公司小老板高益 ；10月5日，其主演的都市励志剧《妈妈像花儿一样》播出，薛之谦在剧中饰演花花少爷张来福，并为该剧配唱片尾曲及多首插曲</p>
+					</li>
+					<li id="2016">
+						<img src="images/7.jpg" width="256" height="256" />
+						<h1>2016</h1>
+						<p>5月17日，发行EP《初学者》，同时同名歌曲《初学者》成为爱情喜剧片《A测试之爱情大冒险》的主题曲  ；6月4日，作为固定嘉宾加盟职业体验真人秀《挑战者联盟第二季》 ；6月7日，发行原创单曲《刚刚好》 ；随后，还推出个人原创单曲《我好像在哪见过你》，该曲成为魔幻动画片《精灵王座》的主题曲</p>
+					</li>
+					<li id="2017">
+						<img src="images/8.jpg" width="256" height="256" />
+						<h1>2017</h1>
+						<p>2017年3月17日，发行单曲《高尚》 ；4月1日，其零片酬出演的喜剧电影《有完没完》上映，他在片中饰演痴情轻生男和平  ；随后，他还与杨幂、华晨宇一起担任首席星推官，参与偶像养成类娱乐选秀节目《明日之子》 ；</p>
+					</li>
+				</ul>
+				<div id="grad_left"></div>
+				<div id="grad_right"></div>
+				<a href="#" id="next">+</a>
+				<a href="#" id="prev">-</a>
+			</div>
+		</section>
+	</div>
+</div>
+   <!--故事集结束-->
+   
+   <!--综艺咖开始-->
+<div class="container" style="width: 970px;">
+	<h2 class="text-center" id="zongyi" style="font-size: 25px;margin: 40px;">综艺咖</h2>
+	<div class="row">
+		<table class="table">
+			<thead>
+				<tr class="danger" style="color: black;">
+					<td>播出时间</td>
+					<td>节目名称</td>
+					<td>简介</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2017-07-08</td>
+					<td>明日之子</td>
+					<td>盛世独秀升级战直播</td>
+				</tr>
+				<tr>
+					<td>2017-04-08</td>
+					<td>金曲捞</td>
+					<td>以唤醒师+叨叨团身份加盟</td>
+				</tr>
+				<tr>
+					<td>2017-01-22</td>
+					<td>我们的挑战2</td>
+					<td>固定嘉宾</td>
+				</tr>
+				<tr>
+					<td>2017-01-20</td>
+					<td>火星情报局第2季</td>
+					<td>高级特工</td>
+				</tr>
+				<tr>
+					<td>2017-01-15</td>
+					<td>我们的挑战</td>
+					<td>固定嘉宾</td>
+				</tr>
+				<tr>
+					<td>2017-01-13</td>
+					<td>火星情报局第2季</td>
+					<td>高级特工</td>
+				</tr>
+				<tr>
+					<td>2016-10-07</td>
+					<td>中国新歌声</td>
+					<td>第五战队队长</td>
+				</tr>
+				<tr>
+					<td>2016-09-16</td>
+					<td>加油！向未来</td>
+					<td>未来队嘉宾</td>
+				</tr>
+				<tr>
+					<td>2016-08-20</td>
+					<td>跨界歌王</td>
+					<td>担任刘涛助唱嘉宾</td>
+				</tr>
+				<tr>
+					<td>2016-08-11</td>
+					<td>作战吧偶像</td>
+					<td>固定嘉宾</td>
+				</tr>
+				<tr>
+					<td>2016-07-21</td>
+					<td>大学生来了</td>
+					<td>主持人</td>
+				</tr>
+				<tr style="border-bottom: 2px solid white;">
+					<td>2016-07-09</td>
+					<td>挑战者联盟第2季</td>
+					<td>固定嘉宾</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+</div>
+   <!--综艺咖结束-->
+   
+   <!--情歌王开始-->
+<div class="container" style="width: 970px;">
+	<h2 class="text-center" id="song" style="font-size: 25px;margin: 40px;">情歌王</h2>
+	<div class="row">
+		<div id="player1" class="aplayer col-lg-4"></div>
+		<div id="player2" class="aplayer col-lg-4"></div>
+		<div id="player3" class="aplayer col-lg-4"></div>
+	</div>
+</div>
+   <!--情歌王结束-->
+   <!--照片墙开始-->
+<div class="container" style="width: 970px;">
+	<h2 class="text-center" id="photo" style="font-size: 25px;margin: 40px;">照片墙</h2>
+    <div id="imageFlow">
+		<div class="top">
+		</div>
+		<div class="bank">
+			<a rel="img/1.jpg" title="LOVE" href="#"></a>
+			<a rel="img/2.jpg" title="LOVE" href="#"></a>
+			<a rel="img/3.jpg" title="LOVE" href="#"></a>
+			<a rel="img/4.jpg" title="LOVE" href="#"></a>
+			<a rel="img/5.jpg" title="LOVE" href="#"></a>
+			<a rel="img/6.jpeg" title="LOVE" href="#"></a>
+			<a rel="img/7.jpg" title="LOVE" href="#"></a>
+			<a rel="img/8.jpg" title="LOVE" href="#"></a>
+			<a rel="img/9.jpg" title="LOVE" href="#"></a>
+			<a rel="img/10.jpg" title="LOVE" href="#"></a>
+			<a rel="img/11.jpg" title="LOVE" href="#"></a>
+			<a rel="img/12.jpg" title="LOVE" href="#"></a>
+		</div>
+		<div class="text">
+			<div class="title">
+				Loading</div>
+			<div class="legend">
+				Please wait...</div>
+		</div>
+		<div class="scrollbar">
+			<img class="track" src="img/track.jpg" alt="">
+			<img class="arrow-left" src="img/sign_out.png" alt="">
+			<img class="arrow-right" src="img/sign_in.png" alt="">
+			<img class="bar" src="img/bar.jpg" alt=""> </div>
+	</div>
+</div>
+   <!--照片墙结束-->
+</div>   
+   <!--@作者：李雯彦-->
+
+
+<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="js/jquery.timelinr-0.9.6.js"></script>
+<script src="dist/APlayer.min.js"></script> 
+<script>
+		$(function(){
+			$().timelinr({
+				arrowKeys: 'true'
+			})
+		});
+			var ap2 = new APlayer({
+	        element: document.getElementById('player1'),
+	        narrow: true,
+	        autoplay: false,
+	        showlrc: false,
+	        music: {
+	            title: 'Sugar',
+	            author: 'Maroon 5',
+	            url: 'music/薛之谦-绅士.mp3',
+	            pic: 'music/3.jpg'
+	        }
+	    });
+	    ap2.init();
+	    var ap2 = new APlayer({
+	        element: document.getElementById('player2'),
+	        narrow: true,
+	        autoplay: false,
+	        showlrc: false,
+	        music: {
+	            title: 'Sugar',
+	            author: 'Maroon 5',
+	            url: 'music/薛之谦-一半.mp3',
+	            pic: 'music/2.jpg'
+	        }
+	    });
+	    ap2.init();
+	    var ap2 = new APlayer({
+	        element: document.getElementById('player3'),
+	        narrow: true,
+	        autoplay: false,
+	        showlrc: false,
+	        music: {
+	            title: 'Sugar',
+	            author: 'Maroon 5',
+	            url: 'music/黄龄&薛之谦-来日方长-(电影《我不是潘金莲》方圆版推广曲).mp3',
+	            pic: 'music/1.jpg'
+	        }
+	    });
+	    ap2.init();
+    </script>
+<script type="text/javascript">
+
+var imf = function () {
+	var lf = 0;
+	var instances = [];
+	//定义一个通过class获得元素的方法
+	function getElementsByClass (object, tag, className) {
+		var o = object.getElementsByTagName(tag);
+		for ( var i = 0, n = o.length, ret = []; i < n; i++)
+			if (o[i].className == className) ret.push(o[i]);
+		if (ret.length == 1) ret = ret[0];
+		return ret;
+	}
+	function addEvent (o, e, f) {
+		if (window.addEventListener) o.addEventListener(e, f, false);
+		else if (window.attachEvent) r = o.attachEvent('on' + e, f);
+	}
+	function createReflexion (cont, img) {
+		var flx = false;
+		if (document.createElement("canvas").getContext) {
+			flx = document.createElement("canvas");
+			flx.width = img.width;
+			flx.height = img.height;
+			var context = flx.getContext("2d");
+			context.translate(0, img.height);
+			context.scale(1, -1);
+			context.drawImage(img, 0, 0, img.width, img.height);
+			context.globalCompositeOperation = "destination-out";
+			var gradient = context.createLinearGradient(0, 0, 0, img.height * 2);
+			gradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+			gradient.addColorStop(0, "rgba(255, 255, 255, 1)");
+			context.fillStyle = gradient;
+			context.fillRect(0, 0, img.width, img.height * 2);
+		} else {
+			/* ---- DXImageTransform ---- */
+			flx     = document.createElement('img');
+			flx.src = img.src;
+			flx.style.filter = 'flipv progid:DXImageTransform.Microsoft.Alpha(' +
+			                   'opacity=50, style=1, finishOpacity=0, startx=0, starty=0, finishx=0, finishy=' +
+							   (img.height * .25) + ')';
+		}
+		/* ---- insert Reflexion ---- */
+		flx.style.position = 'absolute';
+		flx.style.left     = '-1000px';
+		cont.appendChild(flx);
+		return flx;
+	}
+	/* //////////// ==== ImageFlow Constructor ==== //////////// */
+	function ImageFlow(oCont, size, zoom, border) {
+		this.diapos     = [];
+		this.scr        = false;
+		this.size       = size;
+		this.zoom       = zoom;
+		this.bdw        = border;
+		this.oCont      = oCont;
+		this.oc         = document.getElementById(oCont);
+		this.scrollbar  = getElementsByClass(this.oc,   'div', 'scrollbar');
+		this.text       = getElementsByClass(this.oc,   'div', 'text');
+		this.title      = getElementsByClass(this.text, 'div', 'title');
+		this.legend     = getElementsByClass(this.text, 'div', 'legend');
+		this.bar        = getElementsByClass(this.oc,   'img', 'bar');
+		this.arL        = getElementsByClass(this.oc,   'img', 'arrow-left');
+		this.arR        = getElementsByClass(this.oc,   'img', 'arrow-right');
+		this.bw         = this.bar.width;
+		this.alw        = this.arL.width - 5;
+		this.arw        = this.arR.width - 5;
+		this.bar.parent = this.oc.parent  = this;
+		this.arL.parent = this.arR.parent = this;
+		this.view       = this.back       = -1;
+		this.resize();
+		this.oc.onselectstart = function () { return false; }
+		/* ---- create images ---- */
+		var img   = getElementsByClass(this.oc, 'div', 'bank').getElementsByTagName('a');
+		this.NF = img.length;
+		for (var i = 0, o; o = img[i]; i++) {
+			this.diapos[i] = new Diapo(this, i,
+										o.rel,
+										o.title || '- ' + i + ' -',
+										o.innerHTML || o.rel,
+										o.href || '',
+										o.target || '_self'
+			);
+		}
+		/* ==== add mouse wheel events ==== */
+		if (window.addEventListener)
+			this.oc.addEventListener('DOMMouseScroll', function(e) {
+				this.parent.scroll(-e.detail);
+			}, false);
+		else this.oc.onmousewheel = function () {
+			this.parent.scroll(event.wheelDelta);
+		}
+		/* ==== scrollbar drag N drop ==== */
+		this.bar.onmousedown = function (e) {
+			if (!e) e = window.event;
+			var scl = e.screenX - this.offsetLeft;
+			var self = this.parent;
+			/* ---- move bar ---- */
+			this.parent.oc.onmousemove = function (e) {
+				if (!e) e = window.event;
+				self.bar.style.left = Math.round(Math.min((self.ws - self.arw - self.bw), Math.max(self.alw, e.screenX - scl))) + 'px';
+				self.view = Math.round(((e.screenX - scl) ) / (self.ws - self.alw - self.arw - self.bw) * self.NF);
+				if (self.view != self.back) self.calc();
+				return false;
+			}
+			/* ---- release scrollbar ---- */
+			this.parent.oc.onmouseup = function (e) {
+				self.oc.onmousemove = null;
+				return false;
+			}
+			return false;
+		}
+		/* ==== right arrow ==== */
+		this.arR.onclick = this.arR.ondblclick = function () {
+			if (this.parent.view < this.parent.NF - 1)
+				this.parent.calc(1);
+		}
+		/* ==== Left arrow ==== */
+		this.arL.onclick = this.arL.ondblclick = function () {
+			if (this.parent.view > 0)
+				this.parent.calc(-1);
+		}
+	}
+	/* //////////// ==== ImageFlow prototype ==== //////////// */
+	ImageFlow.prototype = {
+		/* ==== targets ==== */
+		calc : function (inc) {
+			if (inc) this.view += inc;
+			var tw = 0;
+			var lw = 0;
+			var o = this.diapos[this.view];
+			if (o && o.loaded) {
+				/* ---- reset ---- */
+				var ob = this.diapos[this.back];
+				if (ob && ob != o) {
+					ob.img.className = 'diapo';
+					ob.z1 = 1;
+				}
+				/* ---- update legend ---- */
+				this.title.replaceChild(document.createTextNode(o.title), this.title.firstChild);
+				this.legend.replaceChild(document.createTextNode(o.text), this.legend.firstChild);
+				/* ---- update hyperlink ---- */
+				if (o.url) {
+					o.img.className = 'diapo link';
+					window.status = 'hyperlink: ' + o.url;
+				} else {
+					o.img.className = 'diapo';
+					window.status = '';
+				}
+				/* ---- calculate target sizes & positions ---- */
+				o.w1 = Math.min(o.iw, this.wh * .5) * o.z1;
+				var x0 = o.x1 = (this.wh * .5) - (o.w1 * .5);
+				var x = x0 + o.w1 + this.bdw;
+				for (var i = this.view + 1, o; o = this.diapos[i]; i++) {
+					if (o.loaded) {
+						o.x1 = x;
+						o.w1 = (this.ht / o.r) * this.size;
+						x   += o.w1 + this.bdw;
+						tw  += o.w1 + this.bdw;
+					}
+				}
+				x = x0 - this.bdw;
+				for (var i = this.view - 1, o; o = this.diapos[i]; i--) {
+					if (o.loaded) {
+						o.w1 = (this.ht / o.r) * this.size;
+						o.x1 = x - o.w1;
+						x   -= o.w1 + this.bdw;
+						tw  += o.w1 + this.bdw;
+						lw  += o.w1 + this.bdw;
+					}
+				}
+				/* ---- move scrollbar ---- */
+				if (!this.scr && tw) {
+					var r = (this.ws - this.alw - this.arw - this.bw) / tw;
+					this.bar.style.left = Math.round(this.alw + lw * r) + 'px';
+				}
+				/* ---- save preview view ---- */
+				this.back = this.view;
+			}
+		},
+		/* ==== mousewheel scrolling ==== */
+		scroll : function (sc) {
+			if (sc < 0) {
+				if (this.view < this.NF - 1) this.calc(1);
+			} else {
+				if (this.view > 0) this.calc(-1);
+			}
+		},
+		/* ==== resize  ==== */
+		resize : function () {
+			this.wh = this.oc.clientWidth;
+			this.ht = this.oc.clientHeight;
+			this.ws = this.scrollbar.offsetWidth;
+			this.calc();
+			this.run(true);
+		},
+		/* ==== move all images  ==== */
+		run : function (res) {
+			var i = this.NF;
+			while (i--) this.diapos[i].move(res);
+		}
+	}
+	/* //////////// ==== Diapo Constructor ==== //////////// */
+	Diapo = function (parent, N, src, title, text, url, target) {
+		this.parent        = parent;
+		this.loaded        = false;
+		this.title         = title;
+		this.text          = text;
+		this.url           = url;
+		this.target        = target;
+		this.N             = N;
+		this.img           = document.createElement('img');
+		this.img.src       = src;
+		this.img.parent    = this;
+		this.img.className = 'diapo';
+		this.x0            = this.parent.oc.clientWidth;
+		this.x1            = this.x0;
+		this.w0            = 0;
+		this.w1            = 0;
+		this.z1            = 1;
+		this.img.parent    = this;
+		this.img.onclick   = function() { this.parent.click(); }
+		this.parent.oc.appendChild(this.img);
+		/* ---- display external link ---- */
+		if (url) {
+			this.img.onmouseover = function () { this.className = 'diapo link';	}
+			this.img.onmouseout  = function () { this.className = 'diapo'; }
+		}
+	}
+	/* //////////// ==== Diapo prototype ==== //////////// */
+	Diapo.prototype = {
+		/* ==== HTML rendering ==== */
+		move : function (res) {
+			if (this.loaded) {
+				var sx = this.x1 - this.x0;
+				var sw = this.w1 - this.w0;
+				if (Math.abs(sx) > 2 || Math.abs(sw) > 2 || res) {
+					/* ---- paint only when moving ---- */
+					this.x0 += sx * .1;
+					this.w0 += sw * .1;
+					if (this.x0 < this.parent.wh && this.x0 + this.w0 > 0) {
+						/* ---- paint only visible images ---- */
+						this.visible = true;
+						var o = this.img.style;
+						var h = this.w0 * this.r;
+						/* ---- diapo ---- */
+						o.left   = Math.round(this.x0) + 'px';
+						o.bottom = Math.floor(this.parent.ht * .25) + 'px';
+						o.width  = Math.round(this.w0) + 'px';
+						o.height = Math.round(h) + 'px';
+						/* ---- reflexion ---- */
+						if (this.flx) {
+							var o = this.flx.style;
+							o.left   = Math.round(this.x0) + 'px';
+							o.top    = Math.ceil(this.parent.ht * .75 + 1) + 'px';
+							o.width  = Math.round(this.w0) + 'px';
+							o.height = Math.round(h) + 'px';
+						}
+					} else {
+						/* ---- disable invisible images ---- */
+						if (this.visible) {
+							this.visible = false;
+							this.img.style.width = '0px';
+							if (this.flx) this.flx.style.width = '0px';
+						}
+					}
+				}
+			} else {
+				/* ==== image onload ==== */
+				if (this.img.complete && this.img.width) {
+					/* ---- get size image ---- */
+					this.iw     = this.img.width;
+					this.ih     = this.img.height;
+					this.r      = this.ih / this.iw;
+					this.loaded = true;
+					/* ---- create reflexion ---- */
+					this.flx    = createReflexion(this.parent.oc, this.img);
+					if (this.parent.view < 0) this.parent.view = this.N;
+					this.parent.calc();
+				}
+			}
+		},
+		/* ==== diapo onclick ==== */
+		click : function () {
+			if (this.parent.view == this.N) {
+				/* ---- click on zoomed diapo ---- */
+				if (this.url) {
+					/* ---- open hyperlink ---- */
+					window.open(this.url, this.target);
+				} else {
+					/* ---- zoom in/out ---- */
+					this.z1 = this.z1 == 1 ? this.parent.zoom : 1;
+					this.parent.calc();
+				}
+			} else {
+				/* ---- select diapo ---- */
+				this.parent.view = this.N;
+				this.parent.calc();
+			}
+			return false;
+		}
+	}
+	/* //////////// ==== public methods ==== //////////// */
+	return {
+		/* ==== initialize script ==== */
+		create : function (div, size, zoom, border) {
+			/* ---- instanciate imageFlow ---- */
+			var load = function () {
+				var loaded = false;
+				var i = instances.length;
+				while (i--) if (instances[i].oCont == div) loaded = true;
+				if (!loaded) {
+					/* ---- push new imageFlow instance ---- */
+					instances.push(
+						new ImageFlow(div, size, zoom, border)
+					);
+					/* ---- init script (once) ---- */
+					if (!imf.initialized) {
+						imf.initialized = true;
+						/* ---- window resize event ---- */
+						addEvent(window, 'resize', function () {
+							var i = instances.length;
+							while (i--) instances[i].resize();
+						});
+						/* ---- stop drag N drop ---- */
+						addEvent(document.getElementById(div), 'mouseout', function (e) {
+							if (!e) e = window.event;
+							var tg = e.relatedTarget || e.toElement;
+							if (tg && tg.tagName == 'HTML') {
+								var i = instances.length;
+								while (i--) instances[i].oc.onmousemove = null;
+							}
+							return false;
+						});
+						/* ---- set interval loop ---- */
+						setInterval(function () {
+							var i = instances.length;
+							while (i--) instances[i].run();
+						}, 16);
+					}
+				}
+			}
+			/* ---- window onload event ---- */
+			addEvent(window, 'load', function () { load(); });
+		}
+	}
+}();
+
+/* ==== create imageFlow ==== */
+//          div ID    , size, zoom, border
+imf.create("imageFlow", 0.15, 1.5, 10);
+
+</script>
+</body>
+</html>
